@@ -29,6 +29,7 @@ target_compile_definitions(hipsycl_rewrite_includes PRIVATE
 
 target_link_libraries(hipsycl_rewrite_includes
   LLVM
+  LLVMSupport
   clangFrontend
   clangSerialization
   clangDriver

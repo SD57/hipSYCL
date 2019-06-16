@@ -33,6 +33,7 @@ target_compile_definitions(hipsycl_transform_source PRIVATE
 
 target_link_libraries(hipsycl_transform_source
   LLVM
+  LLVMSupport
   clangFrontend
   clangSerialization
   clangDriver
